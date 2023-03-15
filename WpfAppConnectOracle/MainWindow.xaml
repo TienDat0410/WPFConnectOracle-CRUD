@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfAppConnectOracle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppConnectOracle"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="455" Width="860">
+    <Canvas Margin="0,0,-61,-57">
+        <DataGrid x:Name="myDataGrid" Height="377" Canvas.Left="348" Canvas.Top="42" Width="502" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+    </Canvas>
+</Window>
